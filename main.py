@@ -55,10 +55,6 @@ def main():
             process_performance = collect_process_info(process, test_name)
             write_data('Per_process_performance2.csv', process_performance)
 
-        user_input = input("Type 'done' to exit: ")
-        if user_input == "done":
-            break
-
 
 if __name__ == '__main__':
     main()
